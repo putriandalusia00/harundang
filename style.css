@@ -1,0 +1,325 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+ margin:0;
+ padding:0;
+}
+body
+{
+ background:#f9f9f9;
+ font-family:"Courier New", Courier, monospace;
+}
+#header
+{
+ width:100%;
+ height:50px;
+ background:#00a2d1;
+ color:#f9f9f9;
+ font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+ font-size:35px;
+ text-align:center;
+}
+#header a
+{
+ color:#fff;
+ text-decoration:blink;
+}
+#body
+{
+ margin-top:50px;
+}
+table
+{
+ width:80%;
+ font-family:Tahoma, Geneva, sans-serif;
+ font-weight:bolder;
+ color:#999;
+ margin-bottom:80px;
+}
+table a
+{
+ text-decoration:none;
+ color:#00a2d1;
+}
+table,td,th
+{
+ border-collapse:collapse;
+ border:solid #d0d0d0 1px;
+ padding:20px;
+}
+table td input
+{
+ width:97%;
+ height:35px;
+ border:dashed #00a2d1 1px;
+ padding-left:15px;
+ font-family:Verdana, Geneva, sans-serif;
+ box-shadow:0px 0px 0px rgba(1,0,0,0.2);
+ outline:none;
+}
+table td input:focus
+{
+ box-shadow:inset 1px 1px 1px rgba(1,0,0,0.2);
+ outline:none;
+}
+table td button
+{
+ border:solid #f9f9f9 0px;
+ box-shadow:1px 1px 1px rgba(1,0,0,0.2);
+ outline:none;
+ background:#00a2d1;
+ padding:9px 15px 9px 15px;
+ color:#f9f9f9;
+ font-family:Arial, Helvetica, sans-serif;
+ font-weight:bolder;
+ border-radius:3px;
+ width:49.5%;
+}
+table td button:active
+{
+ position:relative;
+ top:1px;
+}
+I hope you guys like this tutorial, please don't forget to share and feel free to ask any question regarding this tutorial.
+
+
+ 
+
+
+Like This Post? Please share!
+
+Subscribe Through Email And Get Free Updates
+
+
+Enter your email...
+ SignUp
+You May Also Like...
+
+jQuery Username Availability Live Check with PHP and Ajax
+Login Registration with Email Verification, Forgot Password using PHP
+Dynamic Dependent Select Box using jQuery and PHP
+PHP Login and Registration Script with PDO and OOP
+Load Data on Drop Down Selection using PHP MySQL and Ajax
+Upload, Insert, Update, Delete an Image using PHP MySQL
+Simple jQuery Add, Update, Delete with PHP and MySQL
+Ajax Login Script with jQuery, PHP MySQL and Bootstrap
+Ajax Registration Script using jQuery with PHP and MySQL
+Creating a Simple Pagination Script using PHP PDO with jQuery
+31 Comments:
+
+
+ANONYMOUS
+6/03/2015 5:05 AM
+Allow me to introduce you to my friend, Bobby Drop Tables T_T: https://xkcd.com/327/. 
+I know it's a year old, but a fairly high ranking result in Google. Best to use PDO. Or at least $first_name = mysql_real_escape_string($_POST['first_name']);
+
+Reply
+
+BASHEER AL-MOMANI
+7/31/2015 11:13 AM
+wow Thats awesome can I download this tutorial
+
+Reply
+
+WORLANYO
+8/04/2015 8:24 PM
+please how do i add images and pdf's to the crud operations and save them in a folder. I tried following these other two tutorials http://cleartuts.blogspot.com/2014/12/file-upload-and-view-with-php-and-mysql.html and http://cleartuts.blogspot.com/2014/12/simple-file-uploading-with-php.html, but the code mixes up and does not work.
+
+Reply
+
+PRADEEP KHODKE
+8/16/2015 9:26 AM
+just alter your mysql table and add image, pdf file fields to the table and make change in sql insert query as i showed in following tutorial :
+
+http://www.codingcage.com/2014/12/file-upload-and-view-with-php-and-mysql.html
+
+it inserts file types just you have to make change in sql insert query , as showed in crud tutorials the inserting process was same ...
+
+Reply
+
+JORGE DAGOC
+10/19/2015 7:36 AM
+wheres the css file ??
+
+Reply
+
+PRADEEP KHODKE
+10/21/2015 4:59 PM
+there is css code in this tutorial just after edit-data.php code.
+
+Reply
+
+JERTK MEJIA
+10/23/2015 1:12 PM
+search function na lang ahee thanks =)))
+
+Reply
+
+SANDEEP SINGH ਵੜਿੰਗ
+11/05/2015 4:26 PM
+script functions missing in index.php, use onclick="" instead of href="", Not tested code,
+
+Reply
+
+UNKNOWN
+1/15/2016 1:15 AM
+scripts are there, thanks for the tutorial
+
+Reply
+
+KAIRA SOFTWARE
+1/28/2016 10:51 PM
+Thanks for such valuable and most used codes of PHP and mysql.
+kairasoftware.com
+
+Reply
+
+-T-B-C-
+2/04/2016 11:16 PM
+For some reason the dbconfig.php file breaks the page. It doesn't load when I put it in the /var/www/html folder. But when I remove it localhost shows up but nothing works for obvious reasons since the config file is missing. Is there something I'm forgetting to include in the config file? I'm assuming the password is what i set for mysql.
+
+Reply
+
+RTFM PLIZ
+9/07/2016 1:20 PM
+just for trial, usually I'm using 
+
+php -S localhost:8084 
+
+Note : 
+execute from your project folder
+port is optional, just give another number in case post 80 is already used
+for accesing from other client in network, replace localhost with your IP, and give exception/access for the firewall request
+
+hope this helps
+
+Reply
+
+FIRDAUS YAHAYA
+4/25/2016 8:41 AM
+In index.php, the 'javascript:edt_id' function does not redirect the page to edit_data.php. Because the codes does not state which page it should go after clicking 'EDIT'. Am i missing something here? My edit and delete doesn't work..
+
+Reply
+
+BIDISHA PAHARI
+3/10/2017 4:10 PM
+same problem...
+
+Reply
+
+SELIM REZA
+5/17/2016 10:43 AM
+Script file is not exist..please upload it again
+
+Reply
+
+FAIZ
+6/10/2016 11:23 PM
+how can I make a registration form with data and image for crud operation. please suggest me as I am a beginner for website and database
+
+Reply
+
+FRANQ
+6/12/2016 4:24 PM
+Thanks a lot friend, you're a good programmer
+
+Reply
+
+FAIZ
+6/13/2016 7:25 PM
+crud operation image with info is needed for upload image and data to database
+
+Reply
+
+FRANCISCO DAS CHAGAS
+6/15/2016 6:45 PM
+Muito obrigado me ajudou muito
+
+Reply
+
+UNKNOWN
+7/22/2016 11:02 AM
+very helpful
+
+Reply
+
+UNKNOWN
+8/18/2016 11:50 AM
+good for learning thank you
+
+Reply
+
+VARUN S
+9/06/2016 12:22 PM
+thankyou sir,good tutorial
+
+Reply
+
+FERNANDO ARMANDO CHACHA CHACHA
+9/21/2016 4:18 PM
+Thanks.
+very helpful
+
+Reply
+
+FAIRUZ ATHIRAH
+9/27/2016 12:07 PM
+how to create search coding?
+
+Reply
+
+DANIEL GABRIEL
+12/11/2016 7:32 PM
+Thank you !
+
+Reply
+
+PRADEEP KHODKE
+12/16/2016 12:00 AM
+You're welcome, Daniel
+
+Reply
+
+PAUL PINEDA
+12/19/2016 11:25 AM
+how to fix this one?
+
+
+Notice: Undefined index: user_city in D:\xampp\htdocs\dbtuts\add_data.php on line 8
+Error: INSERT INTO users (first_name,last_name,user_city,) VALUES ('123123','Pineda','')
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') VALUES ('123123','Pineda','')' at line 1
+
+Reply
+
+PAUL PINEDA
+12/19/2016 11:26 AM
+How to fix this error?
+
+Notice: Undefined index: user_city in D:\xampp\htdocs\dbtuts\add_data.php on line 8
+Error: INSERT INTO users (first_name,last_name,user_city,) VALUES ('123123','Pineda','')
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') VALUES ('123123','Pineda','')' at line 1
+
+Reply
+
+JOSHUA KISB
+12/27/2016 5:40 PM
+is there an updated article that uses mysqli or pdo
+
+Reply
+
+DOGTIME COMMUNITY
+1/02/2017 7:33 PM
+This tutorial does not work.... Plus the script file is no longer up... :/
+
+Reply
+
+UNKNOWN
+3/10/2017 4:09 PM
+edit and delete button is not working....
+
+Reply
+
+Newer Post Older Post Home
+
